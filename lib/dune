@@ -1,2 +1,3 @@
 (library
- (name dual))
+ (name dual)
+ (public_name dual))

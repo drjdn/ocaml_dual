@@ -1,18 +1,17 @@
+INSTALL_ARGS := $(if $(PREFIX),--prefix $(PREFIX),)
+
 .PHONY: default build install uninstall utop test clean
 
 default: build
 
 build:
-	dune build
-
-exec: build
-	./_build/default/bin/main.exe
+	dune build @install @runtest
 
 install:
-	dune install
+	dune install $(INSTALL_ARGS)
 
 uninstall:
-	dune uninstall
+	dune uninstall $(INSTALL_ARGS)
 
 test:
 	dune runtest -f
