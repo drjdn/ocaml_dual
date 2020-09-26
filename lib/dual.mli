@@ -19,6 +19,9 @@ val dual : ?y:float -> float -> t
 val print_dual : t -> unit
 (** Pretty print dual number. *)
 
+val equal : t -> t -> bool
+(** Check equality between two dual numbers. *)
+
 val add : t -> t -> t
 (** Addition. *)
 

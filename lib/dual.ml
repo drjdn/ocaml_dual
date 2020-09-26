@@ -14,14 +14,11 @@ let dual ?y:(y=1.0) x =
 let print_dual x =
   Printf.printf "Dual: (%f, %f)\n" x.re x.dre
 
-(* Ocaml's built in = operator seems to work
 let equal x y =
   let eps = sqrt Float.epsilon in
   let v1 = (Float.abs (x.re -. y.re)) < eps in
   let v2 = (Float.abs (x.dre -. y.dre)) < eps in
   v1 && v2
- *)
-
 
 let add x y = { re = x.re +. y.re; dre = x.dre +. y.dre }
 
