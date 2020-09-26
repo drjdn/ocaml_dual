@@ -14,5 +14,5 @@
  (synopsis "Dual numbers library")
  (description "This is an implementation of dual numbers in OCaml")
  (depends
-  (ocaml (>= 4.0.7))
+  (ocaml (>= 4.07))
   (ounit2 :with-test)))
