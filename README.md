@@ -22,4 +22,4 @@ $ opam install dual
 License
 -------
 
-[MIT](https://opensource.org/licenses/MIT)
+[MIT](https://github.com/drjdn/ocaml_dual/blob/master/LICENSE.md)
