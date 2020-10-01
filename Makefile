@@ -17,7 +17,7 @@ test:
 	dune runtest -f
 
 utop:
-	dune utop lib
+	dune utop src/lib
 
 clean:
 	dune clean
