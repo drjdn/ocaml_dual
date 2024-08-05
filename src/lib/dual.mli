@@ -1,7 +1,7 @@
 (*
  The MIT License                                                                                                                                 
                                                                                                                                                  
- Copyright (c) 2020 Jason D. Nielsen <drjdnielsen@gmail.com>
+ Copyright (c) 2024 Jason D. Nielsen <drjdnielsen@gmail.com>
  *)
 
 (** Dual numbers.
